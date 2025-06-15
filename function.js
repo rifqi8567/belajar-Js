@@ -17,3 +17,10 @@ function addName1(firstName, lastName){
 
 alert(addName1('Ahmad', 'Syafiq'))
 
+
+function addName2(){
+    console.log(arguments)
+}
+
+
+alert(addName2('Ahmad', 'Syafiq'))
