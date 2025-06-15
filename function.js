@@ -60,10 +60,19 @@ sum1()
 
 // cara2 standar function
 
-function sum2(x, y){
-    console.log(x+y)
+function sum5(j, l){
+    if (j + l == 15){
+        console.log("mantap")
+    }
 }
-sum2(4, 6)
+sum5(9, 6)
+
+
+
+function sum5(x, y){
+    console.log(x + y)
+}
+sum5(4, 6)
 
 //cara3 arrow function
 const sum3 = (x,y) => {
@@ -83,3 +92,30 @@ sum2(4,9)
 function sum2(x, y){
     console.log(x+y)
 }
+
+
+//function rendom
+function rendomize() {
+    console.log(~~(Math.random() * 1000))
+}
+
+rendomize()
+
+
+//function rendom + pengkondisian
+function rendomize1() {
+    const randomNumber = ~~(Math.random() * 1000) // simpan dulu nilai random ke variable
+    // console.log(randomNumber) // baru cetak angka randomnya
+    if( randomNumber > 200){
+        console.log("wow lebih dari 200", randomNumber)
+    } else {
+        console.log("nilai kurang dari atau sama dengan 200")
+    }
+}
+
+rendomize1()
+
+
+
+
+
