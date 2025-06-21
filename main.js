@@ -1,30 +1,30 @@
-// alert('heyho') // seperti print di dart
+alert('heyho') 
 
-// console.log('hello') //muncul di bagian console di web broser nya
-// prompt('masukkan usia anda?')//memunculkan pop up yg mana user harus isi
+console.log('hello') 
+prompt('masukkan usia anda?')
 
-//Variable
+Variable
 
-// let usia = 20 //dinamis
-// const x = 1 //statis
-// var usia = 2  //dinamis
-// usia = 30
-// console.log('usia kamu adalah ' + usia)
-// alert(usia)
+let usia = 20 
 
-// let usia = prompt('berapa usia anda ?')
-// alert('usia anda adalah ' + usia)
+var usia1 = 2  
+usia = 30
+console.log('usia kamu adalah ' + usia)
+alert(usia)
+
+let usia2 = prompt('berapa usia anda ?')
+alert('usia anda adalah ' + usia)
 
 
-// type data
+// // type data
 
-let usia = 20 //int
-let nama = 'rifqi' //string
-let tinggiBadan = 168.5 // double/ float
-let beratBadan
-let pacar = null
+// let usia = 20 //int
+// let nama = 'rifqi' //string
+// let tinggiBadan = 168.5 // double/ float
+// let beratBadan
+// let pacar = null
 
-beratBadan = 80
+// beratBadan = 80
 
 // pengcondisian
 if (pacar == null){
